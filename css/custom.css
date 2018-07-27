@@ -1,0 +1,92 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+ 
+.jumbotron{
+  text-align: center;
+  background-image: url('../hero.jpg');
+}
+.fixed-top{
+	font-family: 'Arvo', courier, serif;
+	font-size: 15px;
+}
+
+.jumbotron p{
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.jumbotron h1 {
+	padding: 35px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+fixed-top{
+	opacity: 0.8
+	font-size: medium;
+}
+
+.jumbotron h1 {
+	font-family: 'Arvo', courier, serif;
+	opacity: 0.8;
+	
+}
+.em {
+	font-family: 'Arvo', serif;
+	color: red;
+	opacity: 0.8;
+}
+.btn-lg{
+	font-size: 36px;
+}
+.homepage{
+	text-align: center;
+	opacity: 0.8;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.webs{
+	opacity: 0.8;
+}
+.emphasis{
+	color: red;
+	opacity: 1;
+	font-size: 27px;
+	font-family: 'Arvo', courier, serif;
+}
+@media (max-width: 1199px){
+	.jumbotron h1{
+		font-size: 50px;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 991px){
+	.jumbotron h1{
+		font-size: 40px;
+	}
+	.jumbotron p{
+		font-size: 16px;
+		padding: 0;
+	}
+	#come .col-md-4{
+		padding-top:20px;
+		padding-bottom: 20px;
+	}
+}
+@media(max-width: 767px){
+	.jumbotron h1{
+		font-size:24px;
+	}
+	.jumbotron p{
+		font-size: 16px;
+		padding: 0;
+	}
+	.btn-lg{
+		font-size: 16px;
+	}
+	. p{
+		font-size: 18px;
+	}
+}
